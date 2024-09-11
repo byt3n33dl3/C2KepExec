@@ -1,12 +1,8 @@
-# PythonRAT
+# C2KepExec
 
-PythonRAT is a Command and Control (C2) server which can control multiple machines running the Remote Administration Trojan (RAT) forming a botnet cluster which was written in Python3. 
+C2KepExec is a Command and Control (C2) server which can control multiple machines running the Remote Administration Trojan (RAT) forming a botnet cluster which was written in Python3. 
 
-PythonRAT was developed for **educational** purposes and continues to be developed as such!
-
-<p align="center">
-  <img width="367" alt="PythonRAT Banner" src="https://user-images.githubusercontent.com/10171446/178044012-1ad8b92b-024e-4902-9492-7f7b6b1e0761.png">
-</p>
+C2KepExec was developed for **educational** purposes and continues to be developed as such!
 
 
 # Features
@@ -102,7 +98,7 @@ The backdoor relies on the following as of v0.10.1-alpha:
 
 
 The below mentioned steps are for compiling the backdoor for deployment. 
-For those wishing to test the C2 server and backdoor interaction see [issue 1](https://github.com/safesploit/PythonRAT/issues/1#issuecomment-1210378473).
+For those wishing to test the C2 server and backdoor interaction see [issue 1](https://github.com/pxcs/C2KepExec/issues/1#issuecomment-1210378473).
 
 # Wine and Pyinstaller (Win version) Installation on Linux
 
@@ -111,7 +107,7 @@ Python 2.7.14 Releases: https://www.python.org/downloads/release/python-2714/
 
 ## Environment Setup
 
-┌──(root💀kali)-[~/]
+┌──(root@kali)-[~/]
 
 └─# 
 
@@ -125,7 +121,7 @@ Python 2.7.14 Releases: https://www.python.org/downloads/release/python-2714/
     
 ## Installing Dependencies
 
-┌──(root💀kali)-[~]
+┌──(root@kali)-[~]
 
 └─# 
 
@@ -146,7 +142,7 @@ or,
 
 ## Compile to Executable using Pyinstaller (Win) under Wine
 
-┌──(root💀kali)-[~]
+┌──(root@kali)-[~]
 
 └─#
 
@@ -176,7 +172,7 @@ SFX archive is not the only method of obfuscating the executable.
 We can when compiling using _Pyinstaller_ add the argument _--add-data "/root/wallpaper.jpg;."_ with
 _--icon ~/wallpaper.ico_.
 
-┌──(root💀kali)-[~]
+┌──(root@kali)-[~]
 
 └─#
 
