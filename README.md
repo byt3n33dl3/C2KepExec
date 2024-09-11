@@ -1,8 +1,13 @@
 # C2KepExec
 
-**C2KepExec** is a Command and Control (C2) server which can control multiple machines running the Remote Administration Trojan (RAT) forming a botnet cluster which was written in Python3, C++, and C. 
+<p align="center">
+  <img src="https://github.com/pxcs/C2KepExec/tree/main/sfx-resources/c2.png" alt="C2KepExec"/>
+</p>
 
-**C2KepExec** was developed for **educational** purposes and continues to be developed as such!
+
+**C2KepExec** is a Command and Control (C2) server which can control multiple machines running the Remote Administration Trojan forming a BotNet cluster which was written in Python, C++, and C. 
+
+**C2KepExec** was developed for **educational** purposes and continues to be developed as such!. You are on the **latest up-to-date** repository of the project C2KepExec.
 
 
 ## Features
