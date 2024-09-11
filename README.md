@@ -1,9 +1,8 @@
 # C2KepExec
 
-<p align="center">
-  <img src="https://github.com/pxcs/C2KepExec/tree/main/sfx-resources/c2.png" alt="C2KepExec"/>
-</p>
-
+<a href="https://github.com/pxcs/C2KepExec/sfx-resources/c2.png"><p align="center">
+<img src="/sfx-resources/c2.png">
+</p></a>
 
 **C2KepExec** is a Command and Control (C2) server which can control multiple machines running the Remote Administration Trojan forming a BotNet cluster which was written in Python, C++, and C. 
 
